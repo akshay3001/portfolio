@@ -6,9 +6,15 @@
 // background colors for navbar
 .mobile-bg {
   background-color: $mobile-bg;
+  // background-image: url('./../../assets/main_bg.png');
   border-radius: 15px;
   color: $mobile-font;
   padding-top: 50px;
+  // background-size: cover;
+  // background-attachment: scroll;
+  // background-position: center center;
+  // background-repeat: no-repeat;
+  // -webkit-background-size: cover;
 }
 
 // White background home card
@@ -41,20 +47,20 @@
 
 // Portfolio name styling
 .portfolio-name {
-    margin-top: 25px;
-    font-size: 44px;
-    line-height: 1.2em;
+  margin-top: 25px;
+  font-size: 44px;
+  line-height: 1.2em;
 }
 
 // Portfolio designation style
 .portfolio-designation {
-    font-size: 18px !important;
-    margin: 0 !important;
+  font-size: 18px !important;
+  margin: 0 !important;
 }
 
 // Portoflio social media div styling
 .portfolio-social-media {
-    height: 50px;
+  height: 50px;
 }
 
 // Removing border of blue background div
