@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import 'variables';
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import "variables";
 
 // Resets Start
-html, body {
-  font-family: 'Open Sans', sans-serif;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
   background-color: $desktop-bg;
 }
 
@@ -21,7 +22,7 @@ html, body {
 /* Start of padding class's */
 /* Padding all sides */
 .p-none {
-    padding: 0px !important;
+  padding: 0px !important;
 }
 .p-xs {
   padding: 10px;
@@ -60,16 +61,16 @@ html, body {
 }
 /* Padding top */
 .p-t-xs {
-  padding-left: 10px;
+  padding-top: 10px;
 }
 .p-t-sm {
-  padding-left: 15px;
+  padding-top: 15px;
 }
 .p-t-md {
-  padding-left: 20px;
+  padding-top: 20px;
 }
 .p-t-lg {
-  padding-left: 25px;
+  padding-top: 25px;
 }
 /* Padding bottom */
 .p-b-xs {
@@ -280,7 +281,7 @@ html, body {
   margin-right: -40px;
 }
 .m-b-none {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .m-b-xxs {
   margin-bottom: 1px;
@@ -339,13 +340,29 @@ html, body {
   min-width: 120px;
 }
 
+// Fonts -
+// .portfolio-heading {
+
+// }
+
+.portfolio-desription {
+  font-weight: 400;
+  font-style: normal;
+  color: #424242;
+}
+
+// Shadows for cards
+.box-shadow {
+  box-shadow: 0 15px 25px 0 rgba(0,0,0,.1);
+}
+
 // Flexbox
 .cen {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.flex{ 
+.flex {
   display: flex;
 }
 .cen-x {
@@ -368,47 +385,95 @@ html, body {
 // Common media queries
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
