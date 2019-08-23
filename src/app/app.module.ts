@@ -9,12 +9,14 @@ import { HomeComponent } from './home/home.component';
 
 // Angular Material dependencies
 import {MatButtonModule} from '@angular/material/button';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
