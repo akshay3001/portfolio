@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## For Deployment
+
+1. Install github pages - npm install -g angular-cli-ghpages
+2. ng build --prod --base-href https://[username].github.io/[repo]/
+        It is only necessary to set the the--base-href flag once, next time you build the project you can simply run: ng build --prod
+3. ngh --dir=dist/[project-name]
