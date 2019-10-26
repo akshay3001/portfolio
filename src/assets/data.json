@@ -1,27 +1,76 @@
 {
     "personalInfo" : {
         "name": "Omkar Mhatre",
-        "education": "Ph.d",
-        "age": 24,
-        "recidence": "India",
+        "education": "M.Tech",
         "address": "India",
-        "email": "email@example.com",
-        "mobile": "+0123456789"
+        "email": "omkarm@udel.edu"
     },
     "socialMedia": {
         "twitter": "https://www.twitter.com",
-        "facebook": "https://www.facebook.com",
         "linkedin": "https://www.linkedin.com",
-        "instagram": "https://www.instagram.com"
+        "googleScholar": "https://www.instagram.com",
+        "publons": "publons",
+        "facebook": "https://www.facebook.com"
     },
     "resumeLink": "https://www.google.drive.com/",
     "aboutMe": {
+        "title": "About Me",
         "description": "Lorem"
     },
     "tabs": {
         "first": "Research",
         "second": "Publications",
-        "third": "Projects"
-    }
-
+        "third": "Projects",
+        "fourth": "Conferences"    
+    },
+    "research": [
+         {
+            "title": "R TITLE",
+            "imgLink": "https://asdkjasdlkds/research2.png",
+            "description": "lorem"
+        },
+         {
+            "title": "R TITLE",
+            "imgLink": "https://asdkjasdlkds/research1.png",
+            "description": "lorem"
+        }
+    ],
+    "publications": [
+        {
+            "title": "Pub TITLE",
+            "link": {
+                "name": "[Link]",
+                "url": "https://www.link.com",
+            },
+            "imgLink": "https://asdkjasdlkds/research2.png",
+        },
+        {
+            "title": "Pub TITLE",
+            "link": {
+                "name": "[Link]",
+                "url": "https://www.link.com",
+            },
+            "imgLink": "https://asdkjasdlkds/research1.png",
+        }
+    ],
+    "conference": [
+        {
+            "title": "C TITLE",
+            "imgLink": "https://asdkjasdlkds/research2.png"
+        },
+        {
+            "title": "C TITLE",
+            "imgLink": "https://asdkjasdlkds/research1.png"
+        }
+    ],
+    "projects": [
+        {
+            "title": "P TITLE",
+            "description": "lorem"
+        },
+         {
+            "title": "P TITLE",
+            "description": "lorem"
+        }
+    ]
 }
