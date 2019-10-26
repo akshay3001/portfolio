@@ -1,0 +1,27 @@
+{
+    "personalInfo" : {
+        "name": "Omkar Mhatre",
+        "education": "Ph.d",
+        "age": 24,
+        "recidence": "India",
+        "address": "India",
+        "email": "email@example.com",
+        "mobile": "+0123456789"
+    },
+    "socialMedia": {
+        "twitter": "https://www.twitter.com",
+        "facebook": "https://www.facebook.com",
+        "linkedin": "https://www.linkedin.com",
+        "instagram": "https://www.instagram.com"
+    },
+    "resumeLink": "https://www.google.drive.com/",
+    "aboutMe": {
+        "description": "Lorem"
+    },
+    "tabs": {
+        "first": "Research",
+        "second": "Publications",
+        "third": "Projects"
+    }
+
+}
