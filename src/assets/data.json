@@ -6,11 +6,11 @@
         "email": "omkarm@udel.edu"
     },
     "socialMedia": {
-        "twitter": "https://www.twitter.com",
-        "linkedin": "https://www.linkedin.com",
-        "googleScholar": "https://www.instagram.com",
-        "publons": "publons123",
-        "facebook": "https://www.facebook.com"
+        "twitter": "https://twitter.com/23_Omkar",
+        "linkedin": "https://in.linkedin.com/in/omkarmhatre23",
+        "googleScholar": "https://scholar.google.com/citations?user=Zq5ctOcAAAAJ&hl=en&oi=ao",
+        "publons": "https://publons.com/researcher/1732063/omkar-mhatre/",
+        "facebook": "https://www.facebook.com/omkar.mhatre.23"
     },
     "resumeLink": "https://www.google.drive.com/rsrhdvj/kjhg",
     "aboutMe": {
@@ -25,41 +25,58 @@
     },
     "research": [
          {
-            "title": "R TITLE",
+            "title": "Drug Delivery",
             "imgLink": "https://asdkjasdlkds/research2.png",
-            "description": "lorem"
+            "description": "Nanoformulations to deliver anti-cancer drugs in safe and efficacious manner to triple negative breast cancer cells"
         },
          {
-            "title": "R TITLE",
+            "title": "Photothermal Therapy",
             "imgLink": "https://asdkjasdlkds/research1.png",
-            "description": "lorem"
+            "description": "Surface Plasmon Resonance based gold therapeutics for thermal ablation of tumors"
+        },
+      {
+            "title": "Polymer Composites",
+            "imgLink": "https://asdkjasdlkds/research1.png",
+            "description": "Zinc oxide and chitosan composite films for anti bacterial applications"
         }
     ],
     "publications": [
         {
-            "title": "Pub TITLE",
+            "title": "Pharmaceutical feasibility and flow characteristics of polymeric non-spherical particles",
             "link": {
                 "name": "[Link]",
-                "url": "https://www.link.com",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1549963419300632",
             },
-            "imgLink": "https://asdkjasdlkds/research2.png",
+            "imgLink": "https://ars.els-cdn.com/content/image/1-s2.0-S1549963419300632-ga1_lrg.jpg",
         },
         {
-            "title": "Pub TITLE",
+            "title": "Comprehensive Evaluation of Degradable and Cost-Effective Plasmonic Nanoshells for Localized Photothermolysis of Cancer Cells",
             "link": {
                 "name": "[Link]",
-                "url": "https://www.link.com",
+                "url": "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.8b03460",
             },
-            "imgLink": "https://asdkjasdlkds/research1.png",
+            "imgLink": "https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/langd5/2019/langd5.2019.35.issue-24/acs.langmuir.8b03460/20190611/images/large/la-2018-03460g_0009.jpeg",
+        },
+      {
+            "title": "Vascular Access Device Bio-Materials and its Safety Trends",
+            "link": {
+                "name": "[Link]",
+                "url": "https://www.sciencedirect.com/science/article/pii/B9780128035818113967",
+            },
+            "imgLink": "https://images.unsplash.com/photo-1513315849661-23219170a967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
         }
     ],
     "conference": [
         {
-            "title": "C TITLE",
+            "title": "Controlled Release Society India Chapter, Mumbai, India",
             "imgLink": "https://asdkjasdlkds/research2.png"
         },
         {
-            "title": "C TITLE",
+            "title": "7th Indian Chitin and Chitosan Society Meeting, Pune, India",
+            "imgLink": "https://asdkjasdlkds/research1.png"
+        },
+      {
+            "title": "3rd Wadhwani Research Center for Bioengineering (WRCB) Industry Day, Mumbai, India",
             "imgLink": "https://asdkjasdlkds/research1.png"
         }
     ],
