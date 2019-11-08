@@ -18,6 +18,15 @@ body {
   outline: none !important;
 }
 
+.no-style {
+  text-decoration: none !important;
+  color: $desktop-font;
+}
+
+.no-style:hover {
+  color: $desktop-font;
+}
+
 // Resets end
 
 /* Start of padding class's */

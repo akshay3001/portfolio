@@ -8,20 +8,23 @@
             </picture>
         </div>
         <div class="col-md-8 p-none">
-            <h2 class="cen p-t-sm portfolio-name m-b-none">Omkar Mhatre</h2>
-            <h3 class="cen p-t-sm portfolio-designation">Phd</h3>
+            <h2 class="cen p-t-sm portfolio-name m-b-none">{{ portfolioData?.personalInfo.name }}</h2>
+            <h3 class="cen p-t-sm portfolio-designation">{{ portfolioData?.personalInfo.education }}</h3>
             <div class="cen portfolio-social-media row m-none">
-                <a class="links cen m-l-xs">
+                <a class="links cen m-l-xs" (click)="socialMedia(portfolioData?.socialMedia.twitter)">
                     <i class="fa fa-twitter"></i>
                 </a>
-                <a class="links cen m-l-xs">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a class="links cen m-l-xs">
+                <a class="links cen m-l-xs" (click)="socialMedia(portfolioData?.socialMedia.linkedin)">
                     <i class="fa fa-linkedin"></i>
                 </a>
-                <a class="links cen m-l-xs">
+                <a class="links cen m-l-xs" (click)="socialMedia(portfolioData?.socialMedia.googleScholar)">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="links cen m-l-xs" (click)="socialMedia(portfolioData?.socialMedia.publons)">
                     <i class="fa fa-instagram"></i>
+                </a>
+                <a class="links cen m-l-xs" (click)="socialMedia(portfolioData?.socialMedia.facebook)">
+                    <i class="fa fa-facebook"></i>
                 </a>
             </div>
         </div>
@@ -35,20 +38,17 @@
         <section class="portfolio-desription col-lg-6">
             <!-- Start of About me section header -->
             <header>
-                <h3 class="portfolio-heading">About me</h3>
+                <h3 class="portfolio-heading">{{ portfolioData?.aboutMe.title }}</h3>
             </header>
             <!-- End of About me section header -->
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quas repellendus doloremque nesciunt
-                enim
-                quibusdam impedit sed consequatur fugit vitae sapiente corporis, ipsa maxime quae reprehenderit esse aut
-                libero eum.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quas repellendus doloremque nesciunt
-                enim
-                quibusdam impedit sed consequatur fugit vitae sapiente corporis, ipsa maxime quae reprehenderit esse aut
-                libero eum.
+                {{ portfolioData?.aboutMe.description }}
             </p>
-            <button class="outline-none" mat-raised-button>Download Resume</button>
+            <button class="outline-none" mat-raised-button>
+                <a class="no-style" target="_blank" href="{{ portfolioData?.resumeLink }}">
+                    Download Resume
+                </a>
+            </button>
         </section>
         <!-- End of About me content -->
 
@@ -58,24 +58,12 @@
                 <thead></thead>
                 <tbody>
                     <tr>
-                        <td>Age</td>
-                        <td>24</td>
-                    </tr>
-                    <tr>
-                        <td>Residence</td>
-                        <td>USA</td>
-                    </tr>
-                    <tr>
                         <td>Address</td>
-                        <td>Los Angeles, USA</td>
+                        <td>{{ portfolioData?.personalInfo.address }}</td>
                     </tr>
                     <tr>
                         <td>e-mail</td>
-                        <td>email@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td>+0123456789</td>
+                        <td>{{ portfolioData?.personalInfo.email }}</td>
                     </tr>
                 </tbody>
                 <tfoot></tfoot>

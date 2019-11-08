@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from './user.service';
+import { UserInfo } from './model';
 
 @Component({
   selector: 'app-root',
@@ -6,13 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'portfolio';
-  users: any;
 
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 

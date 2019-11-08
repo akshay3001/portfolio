@@ -1,7 +1,7 @@
 <!-- Start of navbar component -->
 <nav class="navbar navbar-expand-lg navbar-light mobile-bg">
     <!-- Start ofPortfolio Heading Brand -->
-    <a class="navbar-brand">Portfolio</a>
+    <a class="navbar-brand" [routerLink]="['home']" >Portfolio</a>
     <!-- End ofPortfolio Heading Brand -->
     <button class="hamburger outline-none navbar-toggler" type="button" data-toggle="collapse" data-target="#HamburgerMenu"
         aria-controls="HamburgerMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,14 +12,17 @@
     <div class="float-right collapse navbar-collapse" id="HamburgerMenu">
         <div class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item p-xs active">
-                    <a class="m-l-md m-r-md">Home</a>
+                <li class="nav-item p-xs active" [routerLink]="['research']" routerLinkActive="router-link-active" >
+                    <a class="m-l-md m-r-md">Research</a>
                 </li>
-                <li class="nav-item p-xs">
-                    <a class="m-l-md m-r-md">Resume</a>
+                <li class="nav-item p-xs" [routerLink]="['publications']">
+                    <a class="m-l-md m-r-md">Publications</a>
                 </li>
-                <li class=" nav-item p-xs">
-                    <a class="m-l-md m-r-md">Contact</a>
+                <li class=" nav-item p-xs" [routerLink]="['projects']">
+                    <a class="m-l-md m-r-md">Projects</a>
+                </li>
+                <li class=" nav-item p-xs" [routerLink]="['conferences']">
+                    <a class="m-l-md m-r-md">Conferences</a>
                 </li>
             </ul>
         </div>
