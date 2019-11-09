@@ -8,10 +8,26 @@ import { UserInfo } from './model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  // Variables
+  
+  // @Inputs()
 
-  constructor() { }
+  // @Outputs()
+
+  constructor(private userService: UserService) { }
 
   ngOnInit() {
+    // Service call for getting all the portfolio data
+    this.userService.getPortfolioData();
+    // this.userService.userData$
+    //   .subscribe((portfolio: UserInfo) => {
+    //     console.log('Portfolio data:', portfolio);
+    //     this.portfolioData = portfolio;
+    //   },
+    //     ((error: any) => {
+    //       console.log(error);
+    //     })
+    //   );
   }
 
 

@@ -15,6 +15,8 @@ import { ResearchComponent } from './research/research.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ConferencesComponent } from './conferences/conferences.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { PageHeaderComponent } from './page-header/page-header.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { ConferencesComponent } from './conferences/conferences.component';
     PublicationsComponent,
     ProjectsComponent,
     ConferencesComponent,
+    NotFoundComponent,
+    PageHeaderComponent,
   ],
   imports: [
     BrowserModule,

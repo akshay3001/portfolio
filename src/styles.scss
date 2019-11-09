@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import "variables";
 
 // Resets Start
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: $desktop-bg;
   // background-image: url('./assets/main_bg.png');
 }
@@ -84,16 +84,16 @@ body {
 }
 /* Padding bottom */
 .p-b-xs {
-  padding-left: 10px;
+  padding-bottom: 10px;
 }
 .p-b-sm {
-  padding-left: 15px;
+  padding-bottom: 15px;
 }
 .p-md-b {
-  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .p-b-lg {
-  padding-left: 25px;
+  padding-bottom: 25px;
 }
 
 /* End of Padding class's
@@ -353,6 +353,7 @@ body {
 // Fonts -
 .portfolio-heading {
   font-size: 22px;
+  font-weight: $font-weight-bold;
 }
 
 .portfolio-desription {

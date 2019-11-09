@@ -1,1 +1,22 @@
-<p>research works!</p>
+<!-- Start of Research component -->
+<section class="research p-sm">
+    <app-page-header [header]="pageHeader"></app-page-header>
+    <header>
+        <h3 class="portfolio-heading m-b-xl">{{ pageHeader }}</h3>
+    </header>
+    <div class="row m-none">
+        <div class="col-12 col-sm-4" *ngFor="let research of portfolioData?.research">
+            <picture class="cen">
+                <img src="https://lmpixels.com/wp/aveo/wp-content/uploads/2017/09/creativity_icon.png" height="75px"
+                    width="75px" alt="Management">
+            </picture>
+            <header>
+                <h4 class="research-title cen">{{ research.title }}</h4>
+            </header>
+            <p class="research-description p-b-sm">
+                {{ research.description }}
+            </p>
+        </div>
+    </div>
+</section>
+<!-- End of Research component -->

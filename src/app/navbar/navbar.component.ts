@@ -9,7 +9,10 @@ import { UserInfo } from '../model';
 })
 export class NavbarComponent implements OnInit {
   // Variables
+  
+  // @Inputs()
 
+  // @Outputs()
 
   constructor() { }
 

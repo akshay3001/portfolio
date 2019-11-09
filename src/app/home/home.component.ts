@@ -10,6 +10,10 @@ import { UserInfo } from '../model';
 export class HomeComponent implements OnInit {
   // Variables
   portfolioData: UserInfo;
+  
+  // @Inputs()
+
+  // @Outputs()
 
   constructor(private userService: UserService) { }
 
@@ -17,11 +21,9 @@ export class HomeComponent implements OnInit {
    * on init angular lifecycle hook
    */
   ngOnInit() {
-    // Service call for getting all the portfolio data
-    this.userService.getPortfolioData();
     this.userService.userData$
       .subscribe((portfolio: UserInfo) => {
-        console.log('Portfolio data:', portfolio);
+        console.log('Portfolio data in Home Component:', portfolio);
         this.portfolioData = portfolio;
       },
         ((error: any) => {

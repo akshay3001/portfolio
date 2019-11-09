@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./publications.component.scss']
 })
 export class PublicationsComponent implements OnInit {
+  // Variables
+  
+  // @Inputs()
+
+  // @Outputs()
 
   constructor() { }
 

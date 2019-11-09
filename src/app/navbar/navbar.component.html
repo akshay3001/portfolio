@@ -12,16 +12,16 @@
     <div class="float-right collapse navbar-collapse" id="HamburgerMenu">
         <div class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item p-xs active" [routerLink]="['research']" routerLinkActive="router-link-active" >
+                <li class="nav-item p-xs active" [routerLink]="['research']" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="m-l-md m-r-md">Research</a>
                 </li>
-                <li class="nav-item p-xs" [routerLink]="['publications']">
+                <li class="nav-item p-xs" [routerLink]="['publications']" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="m-l-md m-r-md">Publications</a>
                 </li>
-                <li class=" nav-item p-xs" [routerLink]="['projects']">
+                <li class=" nav-item p-xs" [routerLink]="['projects']" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="m-l-md m-r-md">Projects</a>
                 </li>
-                <li class=" nav-item p-xs" [routerLink]="['conferences']">
+                <li class=" nav-item p-xs" [routerLink]="['conferences']" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="m-l-md m-r-md">Conferences</a>
                 </li>
             </ul>

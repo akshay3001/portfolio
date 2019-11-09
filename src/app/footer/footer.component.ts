@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   // Variables
   today = new Date();
+  
+  // @Inputs()
+
+  // @Outputs()
 
   constructor() { }
 
