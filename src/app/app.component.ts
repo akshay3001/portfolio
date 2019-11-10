@@ -19,15 +19,6 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     // Service call for getting all the portfolio data
     this.userService.getPortfolioData();
-    // this.userService.userData$
-    //   .subscribe((portfolio: UserInfo) => {
-    //     console.log('Portfolio data:', portfolio);
-    //     this.portfolioData = portfolio;
-    //   },
-    //     ((error: any) => {
-    //       console.log(error);
-    //     })
-    //   );
   }
 
 
